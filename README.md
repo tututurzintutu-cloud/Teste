@@ -1,3 +1,13 @@
+[index.html.txt](https://github.com/user-attachments/files/34591155/index.html.txt)
+<!-- This loader only works inside Roblox. -->
+<script>
+    // Se o navegador abrir, ele roda esse JS e esconde o código
+    document.body.innerHTML = "<div style='background:#111; color:#888; font-family:monospace; padding:40px; font-size:16px;'>-- This loader only works inside Roblox.</div>";
+    document.body.style.background = "#111";
+</script>
+<!-- 
+    O EXECUTOR DO ROBLOX (que não tem JavaScript) vai ignorar tudo acima e ler a partir daqui:
+-->
 -- This loader only works inside Roblox.
 if not game or not workspace or not typeof then return end
 
